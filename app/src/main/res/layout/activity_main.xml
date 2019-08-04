@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.rocflying.circleimageview.CircleImageView
+            android:id="@+id/circleiv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:radis="6dp"
+            app:shape="roundRect" />
+
+        <com.rocflying.circleimageview.CircleImageView            android:id="@+id/circleiv2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:shape="circle" />
+
+        <com.rocflying.circleimageview.CircleImageView            android:id="@+id/circleiv3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:shape="recttangle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <com.rocflying.circleimageview.CircleImageView            android:id="@+id/circleiv4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:borderWidth="5dp"
+            app:radis="6dp"
+            app:shape="roundRect"
+            app:src="@mipmap/lyf" />
+
+        <com.rocflying.circleimageview.CircleImageView            android:id="@+id/circleiv5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:borderWidth="5dp"
+            app:shape="circle"
+            app:src="@mipmap/lyf" />
+
+        <com.rocflying.circleimageview.CircleImageView            android:id="@+id/circleiv6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:borderWidth="5dp"
+            app:shape="recttangle"
+            app:src="@mipmap/lyf" />
+    </LinearLayout>
+</LinearLayout>
